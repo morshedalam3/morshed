@@ -1,0 +1,19 @@
+.button3 {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    background: #7c087c;
+    background: linear-gradient(90deg, #8f1d9e 0%,#8b0754 100%);
+    border: none;
+    border-radius: 1000px;
+    /* box-shadow: 12px 12px 24px#E41B6F; */
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}

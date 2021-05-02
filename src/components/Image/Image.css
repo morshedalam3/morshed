@@ -1,0 +1,14 @@
+    .clip-each {
+    -webkit-clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%); 
+  }
+  
+  .clip-solid {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://i.ibb.co/pJTHQnz/66619451-2373035856298397-7928832343668686848-o-2.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+  }
