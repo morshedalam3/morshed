@@ -123,10 +123,7 @@ const Home = () => {
   <div className="section" id="About" ref={AboutRef}><Header/></div>
   <div className="section" id="Projects" ref={projectsRef}> <Projects/> </div>
   <div className="section" id="Blog" ref={blogRef}> <Blog/> </div>
-  <div style={{background:"#252934"}} className="section " id="Contact" ref={ContactRef}> 
-   <h2 style={{color:"white"}} className="d-flex justify-content-center">Contact</h2>
-   <br></br>
-   <Contact/></div>
+  <div style={{background:"#252934"}} className="section " id="Contact" ref={ContactRef}><Contact/></div>
 </div>
 </div>
   

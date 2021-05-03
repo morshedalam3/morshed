@@ -4,6 +4,7 @@ import works from '../../fakeData/projects.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEdit } from '@fortawesome/free-regular-svg-icons';
+import { faCode, faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons';
 
 const customStyles = {
     content: {
@@ -43,7 +44,7 @@ const ProjectDetails = ({modalIsOpen, closeModal,name}) => {
         <div className="col-md-6"> 
             <h4>{name}</h4>
             <p className="border-top pt-5"><strong>Description:</strong> {description}</p>
-            <a className="p-5 text-dark" href={live} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faEdit} size="2x" /> </a>
+            <a className="p-5 text-dark" href={live} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" /> </a>
          </div>
     </div>          
 </div>

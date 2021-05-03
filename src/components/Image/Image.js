@@ -1,19 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Image.css';
 const Image = () => {
     return (
         <div className="main-container">
-            <div className="clip-each clip-solid">
-            </div>
-            <div>
-
+            <div className="clip-each clip-solid d-flex justify-content-center">
             </div>
             <h1>Who's this guy?</h1>
             <p>I'm a Front-End Developer. <br />
-      I have serious passion for explore new features or learn something new.</p>
-      <a className="text-primary" href="https://drive.google.com/uc?export=download&id=1LcGV_4ItRViS85k3v4IB9tPnsVRC0gbx" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFileAlt} size="2x" /> Resume </a>
+            Building state-of-the-art, easy to use, user-friendly websites <br/> and applications is truly a passion of mine. <br/>
+           In additions I actively seek out new technologies<br/> and stay up-to-date on industry trends and advancements.</p>
+      <a className="d-block btn btn-outline-light" href="https://drive.google.com/uc?export=download&id=1LcGV_4ItRViS85k3v4IB9tPnsVRC0gbx" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFileDownload} size="2x" /> Download Resume </a>
         </div>
     );
 };
