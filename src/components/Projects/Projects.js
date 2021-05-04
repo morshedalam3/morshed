@@ -1,8 +1,7 @@
 import React from 'react';
-// import './Project.css'
 import projects from '../../fakeData/projects.json';
 import Project from '../Project/Project';
-// import './Projects.css';
+import './Projects.css';
 const Projects = () => {
     return (
         <div className="projects-dev p-5">

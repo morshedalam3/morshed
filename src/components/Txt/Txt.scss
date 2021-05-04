@@ -1,0 +1,164 @@
+ $total: 200;
+$time: 10s; 
+
+html,
+body,
+.wrap {
+	height: 100%;
+}
+
+.animation-box{
+	background: #252934;
+	background-image: radial-gradient(
+		circle at center,
+	
+		#252934 10%,
+		#252934 60%
+	);
+	height: 100vh;
+	overflow: hidden;
+}
+
+.wrap {
+	transform-style: preserve-3d;
+	perspective: 800px;
+}
+
+.tri {
+	height: 0;
+	width: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+@for $i from 1 through $total {
+	$size: random(50) * 1px;
+	$rotate: random(360) * 1deg;
+	.tri:nth-child(#{$i}) {
+		border-top: $size solid hsla(random(360), 100%, 50%, 1);
+		border-right: $size solid transparent;
+		border-left: $size solid transparent;
+		margin-left: -$size/2;
+		margin-top: -$size/2;
+		-webkit-filter: grayscale(1);
+		filter: grayscale(1);
+		transform: rotate($rotate) translate3d(0, 0, -1500px) scale(0);
+		animation: anim#{$i} $time infinite linear;
+		animation-delay: $i * -($time/$total);
+		opacity: 0;
+	}
+
+	@keyframes anim#{$i} {
+		0% {
+			opacity: 1;
+			transform: rotate($rotate * 1.5)
+				translate3d(random(1000) * 1px, random(1000) * 1px, 1000px) scale(1);
+		}
+	}
+}
+.text{
+	margin-left: 200px;
+	margin-top:200px;
+}
+.text h5 {
+	padding: 12px 0;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
+.text h1 span{
+  
+	color: #ffffff;
+}
+.text h1 {
+	font-weight: 700;
+	font-size: 43px;
+	
+	letter-spacing: 1px;
+	margin: 11px 0;
+   
+}
+
+.text h1 {
+	color: #fafafa;
+	font-size: 4rem;
+}
+@media only screen and (max-width: 600px)  {
+	.text h1 {
+		color: #fafafa;
+		font-size: 3rem;
+	}
+}
+@media only screen and (max-width: 1003px)  {
+	h1.customize {
+		font-size: 43px!important;
+	}
+	.text h1{
+		font-size: 43px!important;
+	}
+}
+@media only screen and (max-width: 768px)  {
+	h1.customize {
+		font-size: 35px!important;
+	}
+	.text h1{
+		font-size: 35px!important;
+	}
+	.text h5 {
+		padding: 12px 0;
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: 19px!important;
+	}
+}
+@media only screen and (max-width: 500px)  {
+	h1.customize {
+		font-size: 27px!important;
+		font-weight: 900!important;;
+	}
+	.text h1 {
+		font-size: 27px!important;
+		font-weight: bold;
+	}
+
+	.text h5 {
+		padding: 12px 0;
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: 15px!important;
+	}
+}
+@media only screen and (max-width: 392px)  {
+	h1.customize {
+		font-size: 23px!important;
+		font-weight: 900!important;;
+		align-items: center
+	}
+	.text h1 {
+		font-size: 23px!important;
+		font-weight: bold;
+		align-items: center;
+
+	}
+	.text h5 {
+		padding: 12px 0;
+		letter-spacing: 1px;
+		font-weight: 400;
+		font-size: 13px!important;
+	}
+}
+@media only screen and (max-width: 330px)  {
+	.text h1 {
+		font-size: 19px!important;
+		font-weight: bold;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+b.styles_typicalWrapper__1_Uvh {
+	color: #ffffff;
+}
+h1.customize {
+	font-size: 60px;
+}

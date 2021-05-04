@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,16 +7,16 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
-  }
-  .container-fluid{
+  } */
+  /* .container-fluid{
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	background: #FFF;
-  }
+  } */
   /* ============= Animation background ========= */
-  .background {
+  /* .background {
 	background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
 	background-size: 400% 400%;
 	animation: Gradient 15s ease infinite;
@@ -65,29 +65,29 @@ body {
 	animation-delay: 10s;
 	left: 50vw;
 	top: 10vh;
-  }
+  } */
   /* ================= Header ============ */
-  header{
+  /* header{
 	position: absolute;
 	top:0%;
 	left: 0%;
 	width:100%;
 	margin: 0;
 	padding: 0;
-  }
-#name{
+  } */
+/* #name{
 	font-size: 100px;
-}
-  .logo{
+} */
+  /* .logo{
 	width: auto;
 	height: auto;
-	/* background: #EFEEF5; */
+	background: #EFEEF5;
 	margin: 300px 300px;
 	float: left;
   }
   .logo span{
 	color: #ffffff;
-  }
+  } */
   /* Header content & title & button*/
   /* .header-content{
 	margin-top:25%;
@@ -104,7 +104,7 @@ body {
 	line-height: 1.5;
 	margin: 20px auto;
   } */
-  .logo a{
+  /* .logo a{
 	width: 140px;
 	margin:20px 10px;
 	color: #591BC5;
@@ -121,9 +121,9 @@ body {
   }
   .logo a:hover{
 	border-radius: 0;
-  }
+  } */
   /* Animate Background*/
-  @keyframes Gradient {
+  /* @keyframes Gradient {
 	0% {
 	  background-position: 0% 50%;
 	}
@@ -143,7 +143,7 @@ body {
 	  transform: scale(20) rotate(960deg) translate(-50%, -50%);
 	  opacity: 0;
 	}
-  }
+  } */
 /* 
   b.styles_typicalWrapper__1_Uvh {
 	color: #ffffff;
@@ -158,7 +158,7 @@ h1.customize {
 		font-size: 3rem;
 	}
 } */
-@media only screen and (max-width: 1003px)  {
+/* @media only screen and (max-width: 1003px)  {
 	h1.customize {
 		font-size: 43px!important;
 	}
@@ -179,6 +179,10 @@ h1.customize {
 		font-size: 23px!important;
 		font-weight: 900!important;;
 	}
+	.header {
+		margin-top:0px;
+		margin-bottom: 300px;
+	}
 }
 @media only screen and (max-width: 330px)  {
 	.text h1 {
@@ -194,4 +198,4 @@ b.styles_typicalWrapper__1_Uvh {
 }
 h1.customize {
 	font-size: 60px;
-}
+} */

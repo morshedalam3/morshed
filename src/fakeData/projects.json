@@ -14,7 +14,7 @@
         "id" : 2,
         "name": "Event Management",
         "type": "REACT",
-        "image": "https://i.ibb.co/ZVM15Df/Screenshot-22.jpg",
+        "image": "https://i.ibb.co/PQg1ScC/Screenshot-30.jpg",
         "description": "Full satck web app where people can booking event with their information. You can review which is dynamically show in home page. An admin can remove service,add service and change the status of order.",
         "live": "https://city-paradise.web.app/",
         "technology":"React, NodeJs, MongoDB, JavaScript, Strip, Firebase ,"
@@ -33,7 +33,7 @@
         "id" : 4,
         "name":"City Riders",
         "type": "JAVASCRIPT",
-        "image":"https://i.ibb.co/dBrfK8K/Screenshot-24.jpg",
+        "image":"https://i.ibb.co/mGX6n4h/Screenshot-29.jpg",
         "description" : "Single page Ride Sharing  Web app to travel by bike, car, bus and train one place to another.Search destination and see available vehicle",
         "live":"https://city-riders-62a7c.web.app/",
         "technology":"React, NodeJs, MongoDB, JavaScript, Firebase,"

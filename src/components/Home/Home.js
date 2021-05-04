@@ -5,6 +5,7 @@ import Projects from '../Projects/Projects';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
 import Animation from '../Animation/Animation';
+import Txt from '../Txt/Txt';
 const getDimensions = ele => {
     const { height } = ele.getBoundingClientRect();
     const offsetTop = ele.offsetTop;
@@ -68,8 +69,9 @@ const Home = () => {
   }, [visibleSection]);
     return (
 <div>
-<div className="top-spacer"> 
-    <Animation/>
+<div className="top-spacer">
+  <Txt/> 
+    {/* <Animation/> */}
           </div>
   
 <div className="content">

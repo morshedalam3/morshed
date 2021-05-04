@@ -38,7 +38,7 @@ const ProjectDetails = ({modalIsOpen, closeModal,name}) => {
     <div className="row">
         <div className="col-md-6">
             <img className="img-fluid" src={image} alt=""/> 
-            <h1>Uses Technology: <p><strong>{technology}</strong></p></h1>
+            <h1 className="text-dark">Uses Technology: <p><strong>{technology}</strong></p></h1>
          
         </div>
         <div className="col-md-6"> 

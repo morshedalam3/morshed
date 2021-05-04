@@ -6,11 +6,11 @@ import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg
 const Footer = () => {
     return (
 
-        <div className="footer bg-light pt-5">
+        <div className="footer pt-5">
              <a className="btn-btn-outline mx-1 d-flex justify-content-center" href="#About">Know more</a>
-            <div className="container">
+            {/* <div className="container">
             <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6">
                         <h5 className="text-light pb-3">Explore</h5>
                         <a href="#header">Animation</a><br />
                         <a href="##">design</a><br />
@@ -20,7 +20,7 @@ const Footer = () => {
                         <a href="##">Email Implement</a>
 
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6">
                         <h5 className="text-light pb-3">Category</h5>
 
                         <a href="##">Html5</a><br />
@@ -31,14 +31,14 @@ const Footer = () => {
                         <a href="##">Data Structure</a>
 
                     </div>
-                    <div className="col-md-4 text-light">
+                    <div className="col-md-4 col-sm-6 text-light">
                         <h5 className="text-light pb-3">Contact</h5>
                         <p>Phone: +8801825484275</p>
                         <p>Email: morshedhasan1969@gmail.com</p>
                         <p>Junior MERN Developer</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
           <div className="text-center p-5">
                             <a className="text-info" href={`https://www.linkedin.com/in/themorsehed/`}> <FontAwesomeIcon icon={faLinkedinIn} size="3x" /></a> 
                             <a className="p-5 text-light" href={`https://github.com/morshedalam3`}><FontAwesomeIcon icon={faGithub} size="3x" /> </a>

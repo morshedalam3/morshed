@@ -29,7 +29,7 @@ const Contact = () => {
           <label style={{ color: 'white' }}>Message</label>
           <textarea className="form-control" name="message" />
           <br></br>
-          <input className="button3 btn-primary" type="submit" value="Send" />
+          <input className="button3" type="submit" value="Send" />
         </form>
       </div>
     </div>
