@@ -2,9 +2,7 @@ import React from 'react';
 import Modal from 'react-modal'
 import works from '../../fakeData/projects.json'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faEdit } from '@fortawesome/free-regular-svg-icons';
-import { faCode, faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons';
 
 const customStyles = {
     content: {

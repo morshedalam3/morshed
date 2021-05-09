@@ -6,8 +6,8 @@ const Txt = () => {
      <div class="animation-box">
          <div class='wrap'>
          <div class="text">
-         <h1 >This is <span>Morshed</span></h1>
-         <h1 className='customize'><span className='ml-4 text-light'>A </span>
+         <h1 >This is Morshed</h1>
+         <h1 className='customize'>I'm a 
               <Typical
         loop={Infinity }
         steps={[ 

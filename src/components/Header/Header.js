@@ -12,13 +12,16 @@ const Header = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-3 col-sm-6">
+                        <div className="align-items-center">
                         <div className="hexagon-wrapper">
                             <div className="hexagon">
                                 <p> <FontAwesomeIcon icon={faTachometerAlt} /></p>
                             </div>
                         </div>
-                        <h1>Fast</h1>
-                        <p className="normal-text">Fast load times and lag free  interaction, my highest priority.</p>
+                        <h1 className="text-center">Fast</h1>
+                        <p className="text-light text-center">Fast load times and lag free  interaction, my highest priority.</p>
+                        </div>
+                     
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <div className="hexagon-wrapper">
@@ -26,8 +29,8 @@ const Header = () => {
                                 <p> <FontAwesomeIcon icon={faDesktop} /></p>
                             </div>
                         </div>
-                        <h1>Responsive</h1>
-                        <p className="normal-text">My layouts will work on any  device, big or small.</p>
+                        <h1 className="text-center">Responsive</h1>
+                        <p className="text-center text-light">My layouts will work on any  device, big or small.</p>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <div className="hexagon-wrapper">
@@ -35,8 +38,8 @@ const Header = () => {
                                 <p> <FontAwesomeIcon icon={faLightbulb} /></p>
                             </div>
                         </div>
-                        <h1>Intuitive</h1>
-                        <p className="normal-text">Strong preference for easy to  use, intuitive UX/UI.</p>
+                        <h1 className="text-center">Intuitive</h1>
+                        <p className="text-center text-light">Strong preference for easy to  use, intuitive UX/UI.</p>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <div className="hexagon-wrapper">
@@ -44,8 +47,8 @@ const Header = () => {
                                 <p> <FontAwesomeIcon icon={faRocket} /></p>
                             </div>
                         </div>
-                        <h1>Dynamic</h1>
-                        <p className="normal-text">Websites don't have to be static, I love making pages come to life.</p>
+                        <h1 className="text-center">Dynamic</h1>
+                        <p className="text-center text-light">Websites don't have to be static, I love making pages come to life.</p>
                     </div>
                 </div>
             </div>

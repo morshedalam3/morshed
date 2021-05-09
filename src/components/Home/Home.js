@@ -4,7 +4,6 @@ import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
-import Animation from '../Animation/Animation';
 import Txt from '../Txt/Txt';
 const getDimensions = ele => {
     const { height } = ele.getBoundingClientRect();
@@ -31,14 +30,14 @@ const Home = () => {
   const projectsRef = useRef(null);
   const blogRef = useRef(null);
   const HomeRef=useRef(null)
-  const ContactRef = useRef(null)
+  const contactRef = useRef(null)
 
   const sectionRefs = [
     { section: "Home", ref: HomeRef },
     { section: "About", ref: AboutRef },
     { section: "Projects", ref: projectsRef },
     { section: "Blog", ref: blogRef },
-    { section: "Contact", ref: ContactRef },
+    { section: "Contact", ref: contactRef },
   ];
 
   useEffect(() => {
@@ -115,7 +114,7 @@ const Home = () => {
         type="button"
         className={`header_link ${visibleSection === "Contact" ? "selected" : ""}`}
         onClick={() => {
-          scrollTo(ContactRef.current);
+          scrollTo(contactRef.current);
         }}
       >
         Contact
@@ -125,7 +124,7 @@ const Home = () => {
   <div className="section" id="About" ref={AboutRef}><Header/></div>
   <div className="section" id="Projects" ref={projectsRef}> <Projects/> </div>
   <div className="section" id="Blog" ref={blogRef}> <Blog/> </div>
-  <div style={{background:"#252934"}} className="section " id="Contact" ref={ContactRef}><Contact/></div>
+  <div style={{background:"#252934"}} className="section " id="Contact" ref={contactRef}><Contact/></div>
 </div>
 </div>
   

@@ -33,7 +33,7 @@ const BarChart = () => {
           </div>
         </p>
        </div>
-       <div className="fill">
+       <div className="fill"> 
        <p className="chart__bar" style={{width: "70%"}}>
         <div className="chart__label">
             REACT

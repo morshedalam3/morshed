@@ -17,7 +17,8 @@
   .header {
     display: flex;
     justify-content: center;
-    background-color: #fff;
+    background-color: #5b5b5c;
+    border-top: 1px solid white;
   }
   
   .header_link {
@@ -28,6 +29,7 @@
     border-bottom: 3px solid transparent;
     cursor: pointer;
     outline: none;
+    background-color:#5b5b5c;
   }
   
   .selected {
