@@ -5,7 +5,7 @@ const Txt = () => {
     return (
      <div class="animation-box">
          <div class='wrap'>
-         <div class="text">
+         <div class="text text-center align-items-center">
          <h1 >This is Morshed</h1>
          <h1 className='customize'>I'm a 
               <Typical

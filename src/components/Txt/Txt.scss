@@ -58,7 +58,6 @@ body,
 	}
 }
 .text{
-	margin-left: 300px;
 	margin-top:200px;
 }
 
@@ -92,10 +91,10 @@ body,
 	.text h1{
 		font-size: 43px!important;
 	}
-	.text{
-		margin-left: 100px !important;
-		margin-top: 100px !important;
-	}
+	// .text{
+	// 	margin-left: 100px !important;
+	// 	margin-top: 100px !important;
+	// }
 }
 @media only screen and (max-width: 768px)  {
 	h1.customize {
