@@ -2,3 +2,21 @@
     border-top: 1px solid lightgray;
     background: #252934;
 }
+
+.projects-dev nav li{
+    color: rgb(167, 214, 140);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.projects-dev nav .active{
+    color: rgb(139, 230, 104);
+}
+.projects-dev nav .active::after{
+    content: "";
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgb(95, 235, 102);
+    display: block;
+}

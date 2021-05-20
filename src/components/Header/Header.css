@@ -43,9 +43,9 @@
     background-clip: text;
     -webkit-background-clip: text;
   }
-  .container h1 {
+  /* .container h1 {
     color:#fff;
-    }
+    } */
   
   .hexagon:before,
   .hexagon:after {

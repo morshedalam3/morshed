@@ -42,7 +42,7 @@ const ProjectDetails = ({modalIsOpen, closeModal,name}) => {
         <div className="col-md-6"> 
             <h4>{name}</h4>
             <p className="border-top pt-5"><strong>Description:</strong> {description}</p>
-            <a className="p-5 text-dark" href={live} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" /> </a>
+            <a className="p-5 text-dark" href={live} target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faExternalLinkSquareAlt} size="2x" /></a>
          </div>
     </div>          
 </div>
